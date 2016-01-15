@@ -39,6 +39,7 @@ public class TicketFrame extends JFrame {
 
 		ActionListener w = new purchaseClickListener();
 		purchase.addActionListener(w);
+		amt.addActionListener(w);
 	}
 
 	class purchaseClickListener implements ActionListener {
